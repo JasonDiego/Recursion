@@ -13,9 +13,9 @@ public class checkPalindrome {
     }
 
     public static void main(String[] args) {
-        Scanner myObj = new Scanner(System.in); // create Scanner object to read input
+        Scanner input = new Scanner(System.in); // create Scanner object to read input
         System.out.println("Enter a string:");
-        String str = myObj.nextLine(); // read string and assign to "str"
+        String str = input.nextLine(); // read string and assign to "str"
 
         System.out.println("Is " + str + " a palindrome?");
         System.out.println((checkPalindrome(str)) ? "Yes!" : "No!");
